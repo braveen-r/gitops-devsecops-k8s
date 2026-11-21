@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: telemetry-backend
-          image: ghcr.io/braveen811/gitops-devsecops-k8s:latest
+          image: ghcr.io/braveen-r/gitops-devsecops-k8s:latest
           ports:
             - containerPort: 3000
           securityContext:

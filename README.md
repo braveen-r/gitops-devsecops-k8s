@@ -1,6 +1,6 @@
 ## Automated GitOps & DevSecOps Delivery Pipeline on K3s
 
-![CI/CD Pipeline](https://github.com/Braveen811/gitops-devsecops-k8s/actions/workflows/ci.yml/badge.svg)
+![CI/CD Pipeline](https://github.com/braveen-r/gitops-devsecops-k8s/actions/workflows/ci.yml/badge.svg)
 ![Security: Trivy](https://img.shields.io/badge/Security-Trivy%20%7C%20Gitleaks-red)
 ![Platform: Arch Linux](https://img.shields.io/badge/Platform-Arch%20Linux-blue?logo=arch-linux)
 ![Orchestration: K3s](https://img.shields.io/badge/Cluster-k3s-informational?logo=kubernetes)
@@ -23,7 +23,7 @@ A production-grade, end-to-end GitOps and DevSecOps pipeline implemented nativel
     ├── Gitleaks: Scans Git history for leaks/keys
     ├── Docker Build: Hardened multi-stage container build
     ├── Trivy: Scans container image for vulnerabilities (CRITICAL, HIGH)
-    └── Push: Deploys signed image to GHCR (ghcr.io/braveen811/gitops-devsecops-k8s)
+    └── Push: Deploys signed image to GHCR (ghcr.io/braveen-r/gitops-devsecops-k8s)
     │
     ▼ continuously reconciles
  ArgoCD GitOps Controller (Inside k3s)
